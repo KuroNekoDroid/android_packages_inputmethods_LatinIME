@@ -60,6 +60,10 @@ android_app {
     product_specific: true,
 
     optimize: {
+        enabled: true,
+        optimize: true,
+        shrink: true,
+        obfuscate: true,
         proguard_flags_files: ["proguard.flags"],
     },
 }
